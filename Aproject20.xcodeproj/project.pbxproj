@@ -18,6 +18,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6E1EB7311F8DE9720063F493 /* explode.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = explode.sks; sourceTree = "<group>"; };
+		6E1EB7321F8DE9720063F493 /* fuse.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = fuse.sks; sourceTree = "<group>"; };
+		6E1EB7341F8DEEA10063F493 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
+		6E1EB7351F8DEEA10063F493 /* background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "background@2x.png"; sourceTree = "<group>"; };
+		6E1EB7361F8DEEA10063F493 /* explode.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = explode.sks; sourceTree = "<group>"; };
+		6E1EB7371F8DEEA10063F493 /* fuse.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = fuse.sks; sourceTree = "<group>"; };
+		6E1EB7381F8DEEA10063F493 /* rocket.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rocket.png; sourceTree = "<group>"; };
+		6E1EB7391F8DEEA10063F493 /* rocket@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "rocket@2x.png"; sourceTree = "<group>"; };
+		6E1EB73A1F8DEEA10063F493 /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spark.png; sourceTree = "<group>"; };
 		6E2C65111F8BC4AC00F8FF7F /* Aproject20.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Aproject20.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E2C65141F8BC4AC00F8FF7F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6E2C65161F8BC4AC00F8FF7F /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -41,6 +50,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6E1EB7331F8DEEA10063F493 /* Content */ = {
+			isa = PBXGroup;
+			children = (
+				6E1EB7341F8DEEA10063F493 /* background.png */,
+				6E1EB7351F8DEEA10063F493 /* background@2x.png */,
+				6E1EB7361F8DEEA10063F493 /* explode.sks */,
+				6E1EB7371F8DEEA10063F493 /* fuse.sks */,
+				6E1EB7381F8DEEA10063F493 /* rocket.png */,
+				6E1EB7391F8DEEA10063F493 /* rocket@2x.png */,
+				6E1EB73A1F8DEEA10063F493 /* spark.png */,
+			);
+			name = Content;
+			path = "../../../ProjectS/HackingWithSwift-master/project20-files/Content";
+			sourceTree = "<group>";
+		};
 		6E2C65081F8BC4AC00F8FF7F = {
 			isa = PBXGroup;
 			children = (
@@ -60,6 +84,8 @@
 		6E2C65131F8BC4AC00F8FF7F /* Aproject20 */ = {
 			isa = PBXGroup;
 			children = (
+				6E1EB7311F8DE9720063F493 /* explode.sks */,
+				6E1EB7321F8DE9720063F493 /* fuse.sks */,
 				6E2C65141F8BC4AC00F8FF7F /* AppDelegate.swift */,
 				6E2C65161F8BC4AC00F8FF7F /* GameScene.sks */,
 				6E2C65181F8BC4AC00F8FF7F /* Actions.sks */,
@@ -69,6 +95,7 @@
 				6E2C65211F8BC4AC00F8FF7F /* Assets.xcassets */,
 				6E2C65231F8BC4AC00F8FF7F /* LaunchScreen.storyboard */,
 				6E2C65261F8BC4AC00F8FF7F /* Info.plist */,
+				6E1EB7331F8DEEA10063F493 /* Content */,
 			);
 			path = Aproject20;
 			sourceTree = "<group>";
@@ -293,7 +320,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.stevejobs.Aproject20;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -308,7 +335,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.stevejobs.Aproject20;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
